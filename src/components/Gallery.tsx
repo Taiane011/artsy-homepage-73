@@ -11,6 +11,21 @@ const artworks = [
     title: "Museu do Louvre",
     description: "Localização: Paris, França.\n\nHistória: Inaugurado em 1793, o Louvre foi originalmente um palácio real antes de se tornar um museu após a Revolução Francesa. Hoje, é o museu mais visitado do mundo, famoso por sua pirâmide de vidro e acervo inigualável.",
   },
+  {
+    image: "https://source.unsplash.com/random/800x1000?museum",
+    title: "Novo Museu",
+    description: "Adicione a descrição do museu aqui...",
+  },
+  {
+    image: "https://source.unsplash.com/random/800x1000?art-gallery",
+    title: "Novo Museu",
+    description: "Adicione a descrição do museu aqui...",
+  },
+  {
+    image: "https://source.unsplash.com/random/800x1000?gallery",
+    title: "Novo Museu",
+    description: "Adicione a descrição do museu aqui...",
+  }
 ];
 
 const Gallery = () => {
