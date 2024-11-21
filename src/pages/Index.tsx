@@ -38,9 +38,16 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-light mb-6">Entre em Contato</h2>
+            <h2 className="text-3xl font-light mb-6">ARTE E O MEIO AMBIENTE
+  TEMA 5:
+  </h2>
+          <h3>ARTE E O MEIO AMBIENTE
+            PAG:51</h3>
           <p className="text-gray-600 mb-8">
-            Interessado em saber mais sobre estes museus? Entre em contato conosco.
+            A Land Art não apenas amplia a definição tradicional de arte, mas também reitera a 
+            importância de uma relação mais profunda e respeitosa com o meio ambiente. Ao interagir diretamente com 
+            a natureza e ao usar a paisagem como sua tela, essa forma de arte destaca a beleza efêmera do mundo natural
+            e convida o público a refletir sobre o impacto humano no planeta.
           </p>
           <a
             href="mailto:contact@example.com"
