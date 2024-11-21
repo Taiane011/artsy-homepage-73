@@ -10,20 +10,21 @@ const ArtworkCard = ({ image, title, description }: ArtworkCardProps) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <div className="group relative overflow-hidden rounded-lg animate-fade-in">
-      <div className="aspect-[3/4] relative overflow-hidden">
+    <div className="flex flex-col gap-4 animate-fade-in">
+      <div className="aspect-[4/3] relative overflow-hidden rounded-lg">
         <img
           src={image}
           alt={title}
-          className={`w-full h-full object-cover transition-all duration-700 transform group-hover:scale-105 ${
+          className={`w-full h-full object-cover transition-all duration-700 ${
             isLoaded ? "opacity-100" : "opacity-0"
           }`}
           onLoad={() => setIsLoaded(true)}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-          <h3 className="text-white font-medium text-lg mb-1">{title}</h3>
-          <p className="text-white/90 text-sm">{description}</p>
+      </div>
+      <div className="space-y-4 text-left p-4 bg-white rounded-lg shadow-sm">
+        <h3 className="text-2xl font-medium text-gray-900">{title}</h3>
+        <div className="prose prose-sm text-gray-600 whitespace-pre-line">
+          {description}
         </div>
       </div>
     </div>

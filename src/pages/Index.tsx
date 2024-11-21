@@ -22,11 +22,11 @@ const Index = () => {
       {/* Hero Section */}
       <header className="text-center py-16 md:py-24 px-4">
         <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-4">
-          Art Portfolio
+          Explorando os Grandes Museus do Mundo
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          A curated collection of contemporary artworks exploring the intersection
-          of traditional and digital mediums.
+          Este portfólio apresenta informações detalhadas sobre dois dos museus mais icônicos do mundo: o
+          Museu de Arte de São Paulo (MASP) e o Museu do Louvre.
         </p>
       </header>
 
@@ -35,30 +35,18 @@ const Index = () => {
         <Gallery />
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-20 px-4 md:px-6 bg-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-light mb-6">About the Artist</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Exploring the boundaries between traditional and digital art, creating
-            pieces that reflect the harmony of these two worlds. Each artwork is a
-            journey through color, texture, and emotion.
-          </p>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-light mb-6">Get in Touch</h2>
+          <h2 className="text-3xl font-light mb-6">Entre em Contato</h2>
           <p className="text-gray-600 mb-8">
-            Interested in collaborations or purchasing artwork? Let's connect.
+            Interessado em saber mais sobre estes museus? Entre em contato conosco.
           </p>
           <a
             href="mailto:contact@example.com"
             className="inline-block px-8 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors duration-300"
           >
-            Contact Me
+            Contate-nos
           </a>
         </div>
       </section>
